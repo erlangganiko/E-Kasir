@@ -1,0 +1,24 @@
+{
+    "statusCode": 200,
+    "statusMessage": "OK",
+    "statusDescription": "Log in successfully",
+    "result": {
+        "data": {
+            "token": {
+                "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE3NjcxNjk4MjYsImV4cCI6MTc2NzE3MzQyNiwibmJmIjoxNzY3MTY5ODI2LCJqdGkiOiIzbldXUmNzTVkwSm9GMnREIiwic3ViIjoiZjhiMjI4YTctMDNlNy00OTFkLWJhNDgtYzZlYzYyNWJiMzM1IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.Ufn1lBtIQEM8rhzKPuNoMEEf2PrclcN3I78DZGtBG24",
+                "token_type": "bearer",
+                "expires_in": 72000
+            },
+            "user": {
+                "id": "f8b228a7-03e7-491d-ba48-c6ec625bb335",
+                "roles": [
+                    "owner"
+                ],
+                "flags": {
+                    "has_subscription": true,
+                    "has_outlet": true
+                }
+            }
+        }
+    }
+}

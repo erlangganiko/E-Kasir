@@ -78,7 +78,17 @@ Response Body (Success, 200) :
         "data" : {
             "access_token": "stringToken",
             "token_type": "bearer",
-            "expired_at": 72000 // millieseconds
+            "expired_at": 72000, // millieseconds
+            "user": {
+                "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+                "roles": [
+                    "owner"
+                ],
+                "flags": {
+                    "has_subscription": false, //false kalau user baru register
+                    "has_outlet": false //false kalau user baru register
+                }
+            }
         }
     }
 }
