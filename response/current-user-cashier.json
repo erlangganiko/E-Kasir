@@ -1,0 +1,89 @@
+{
+    "statusCode": 200,
+    "statusMessage": "OK",
+    "statusDescription": "Request processed successfully",
+    "result": {
+        "data": {
+            "id": "f8b228a7-03e7-491d-ba48-c6ec625bb335",
+            "name": "Petugas Kasir",
+            "username": "petugaskasir",
+            "email": "petugaskasir@gmail.com",
+            "msisdn": "+6281345678899",
+            "is_active": true,
+            "subscriptions": [
+                {
+                    "subscription_id": "a0b6fd97-4abb-4946-9bd5-e3f7acea668a",
+                    "subscription_type": 1,
+                    "subscription_outlets": [
+                        {
+                            "id": "a0b6fd97-4ef3-4f94-8eb7-e7cdfb221ac6",
+                            "name": "Toko Satu",
+                            "address": "Jln Sudirman No.1, Jakarta",
+                            "msisdn": "+628345356777",
+                            "is_active": true,
+                            "created_at": "2025-12-30T06:59:50.000000Z",
+                            "updated_at": "2025-12-30T06:59:50.000000Z"
+                        }
+                    ],
+                    "subscription_status": "active",
+                    "valid_from": "2025-12-30T06:59:50.000000Z",
+                    "valid_to": "2026-01-29T06:59:50.000000Z"
+                }
+            ],
+            "roles": [
+                {
+                    "id": "2cee89c6-ebc3-42b3-b880-a42ca29cc1ae",
+                    "name": "Petugas Kasir",
+                    "slug": "cashier",
+                    "description": "Role untuk petugas kasir",
+                    "permissions": [
+                        {
+                            "id": "a21f6bd9-60e7-4a39-b002-e46a31e0a679",
+                            "name": "Product View",
+                            "slug": "product.view",
+                            "description": "Hak akses untuk melihat Product",
+                            "created_at": "2025-12-30T06:59:49.000000Z",
+                            "updated_at": "2025-12-30T06:59:49.000000Z"
+                        },
+                        {
+                            "id": "1ed5dde8-dd6e-4be2-8f65-76bbb5126665",
+                            "name": "Product Update",
+                            "slug": "product.update",
+                            "description": "Hak akses untuk update Product",
+                            "created_at": "2025-12-30T06:59:49.000000Z",
+                            "updated_at": "2025-12-30T06:59:49.000000Z"
+                        },
+                        {
+                            "id": "ed9eeab7-61e0-462f-a878-c3a5bcffe58e",
+                            "name": "Inventory View",
+                            "slug": "inventory.view",
+                            "description": "Hak akses untuk melihat Inventory",
+                            "created_at": "2025-12-30T06:59:49.000000Z",
+                            "updated_at": "2025-12-30T06:59:49.000000Z"
+                        },
+                        {
+                            "id": "93fe426a-f571-4e84-a0a7-6cf9dd857140",
+                            "name": "Inventory Update",
+                            "slug": "inventory.update",
+                            "description": "Hak akses untuk update Inventory",
+                            "created_at": "2025-12-30T06:59:49.000000Z",
+                            "updated_at": "2025-12-30T06:59:49.000000Z"
+                        },
+                        {
+                            "id": "02a88935-6be7-4b4e-8801-9fbed8f7dab3",
+                            "name": "Transaction All",
+                            "slug": "transaction.*",
+                            "description": "Punya semua hak akses untuk Transaction",
+                            "created_at": "2025-12-30T06:59:49.000000Z",
+                            "updated_at": "2025-12-30T06:59:49.000000Z"
+                        }
+                    ],
+                    "created_at": "2025-12-30T06:59:49.000000Z",
+                    "updated_at": "2025-12-30T06:59:49.000000Z"
+                }
+            ],
+            "created_at": "2025-12-30T06:59:49.000000Z",
+            "updated_at": "2025-12-30T06:59:49.000000Z"
+        }
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "statusCode": 200,
+    "statusMessage": "OK",
+    "statusDescription": "Request processed successfully",
+    "result": {
+        "data": {
+            "id": "f8b228a7-03e7-491d-ba48-c6ec625bb335",
+            "name": "Owner Kasir",
+            "username": "ownerkasir",
+            "email": "ownerkasir@gmail.com",
+            "msisdn": "+6281113334445",
+            "is_active": true,
+            "subscriptions": [
+                {
+                    "subscription_id": "a0b6fd97-4abb-4946-9bd5-e3f7acea668a",
+                    "subscription_type": 1,
+                    "subscription_outlets": [
+                        {
+                            "id": "a0b6fd97-4ef3-4f94-8eb7-e7cdfb221ac6",
+                            "name": "Toko Satu",
+                            "address": "Jln Sudirman No.1, Jakarta",
+                            "msisdn": "+628345356777",
+                            "is_active": true,
+                            "created_at": "2025-12-30T06:59:50.000000Z",
+                            "updated_at": "2025-12-30T06:59:50.000000Z"
+                        }
+                    ],
+                    "subscription_status": "active",
+                    "valid_from": "2025-12-30T06:59:50.000000Z",
+                    "valid_to": "2026-01-29T06:59:50.000000Z"
+                }
+            ],
+            "roles": [
+                {
+                    "id": "4e4cfa56-2d20-4c11-bcce-c8b5ed4ed178",
+                    "name": "owner",
+                    "slug": "owner",
+                    "description": "Role untuk owner kasir",
+                    "permissions": [
+                        {
+                            "id": "7fae3c6d-ff02-4a75-8a0e-ad886049a19e",
+                            "name": "User All",
+                            "slug": "user.*",
+                            "description": "Punya semua hak akses untuk User",
+                            "created_at": "2025-12-30T06:59:49.000000Z",
+                            "updated_at": "2025-12-30T06:59:49.000000Z"
+                        },
+                        {
+                            "id": "3cbc3892-9e88-43eb-bdb7-7616143ef390",
+                            "name": "Role All",
+                            "slug": "role.*",
+                            "description": "Punya semua hak akses untuk Role",
+                            "created_at": "2025-12-30T06:59:49.000000Z",
+                            "updated_at": "2025-12-30T06:59:49.000000Z"
+                        },
+                        {
+                            "id": "1c44f6a6-e51b-4dea-a105-2663b9a52b98",
+                            "name": "Outlet All",
+                            "slug": "outlet.*",
+                            "description": "Punya semua hak akses untuk Outlet",
+                            "created_at": "2025-12-30T06:59:49.000000Z",
+                            "updated_at": "2025-12-30T06:59:49.000000Z"
+                        },
+                        {
+                            "id": "cb584cd1-666d-491a-80d8-b00e9fc5545b",
+                            "name": "Product All",
+                            "slug": "product.*",
+                            "description": "Punya semua hak akses untuk Product",
+                            "created_at": "2025-12-30T06:59:49.000000Z",
+                            "updated_at": "2025-12-30T06:59:49.000000Z"
+                        },
+                        {
+                            "id": "41674eee-016a-4731-81b8-2624fcc9c9b1",
+                            "name": "Inventory All",
+                            "slug": "inventory.*",
+                            "description": "Punya semua hak akses untuk Inventory",
+                            "created_at": "2025-12-30T06:59:49.000000Z",
+                            "updated_at": "2025-12-30T06:59:49.000000Z"
+                        },
+                        {
+                            "id": "02a88935-6be7-4b4e-8801-9fbed8f7dab3",
+                            "name": "Transaction All",
+                            "slug": "transaction.*",
+                            "description": "Punya semua hak akses untuk Transaction",
+                            "created_at": "2025-12-30T06:59:49.000000Z",
+                            "updated_at": "2025-12-30T06:59:49.000000Z"
+                        }
+                        
+                    ],
+                    "created_at": "2025-12-30T06:59:49.000000Z",
+                    "updated_at": "2025-12-30T06:59:49.000000Z"
+                }
+            ],
+            "created_at": "2025-12-30T06:59:49.000000Z",
+            "updated_at": "2025-12-30T06:59:49.000000Z"
+        }
+    }
+}
