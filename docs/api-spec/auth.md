@@ -16,13 +16,13 @@ Request Body :
 }
 ```
 
-Response Body (Success, 200) :
+Response Body (Success, 201) :
 
 ```json
 {
-    "statusCode": 200,
-    "statusMessage": "OK",
-    "statusDescription": "Request processed successfully",
+    "statusCode": 201,
+    "statusMessage": "Created",
+    "statusDescription": "Resource created successfully",
     "result": {
         "successMessage": "User register successfully",
         "data": {
