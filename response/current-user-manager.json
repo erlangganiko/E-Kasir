@@ -1,0 +1,81 @@
+{
+    "statusCode": 200,
+    "statusMessage": "OK",
+    "statusDescription": "Request processed successfully",
+    "result": {
+        "data": {
+            "id": "f8b228a7-03e7-491d-ba48-c6ec625bb335",
+            "name": "Manager Kasir",
+            "username": "managerkasir",
+            "email": "managerkasir@gmail.com",
+            "msisdn": "+6289944331133",
+            "is_active": true,
+            "subscriptions": [
+                {
+                    "subscription_id": "a0b6fd97-4abb-4946-9bd5-e3f7acea668a",
+                    "subscription_type": 1,
+                    "subscription_outlets": [
+                        {
+                            "id": "a0b6fd97-4ef3-4f94-8eb7-e7cdfb221ac6",
+                            "name": "Toko Satu",
+                            "address": "Jln Sudirman No.1, Jakarta",
+                            "msisdn": "+628345356777",
+                            "is_active": true,
+                            "created_at": "2025-12-30T06:59:50.000000Z",
+                            "updated_at": "2025-12-30T06:59:50.000000Z"
+                        }
+                    ],
+                    "subscription_status": "active",
+                    "valid_from": "2025-12-30T06:59:50.000000Z",
+                    "valid_to": "2026-01-29T06:59:50.000000Z"
+                }
+            ],
+            "roles": [
+                {
+                    "id": "2cee89c6-ebc3-42b3-b880-a42ca29cc1ae",
+                    "name": "Manager",
+                    "slug": "manager",
+                    "description": "Role untuk manager kasir",
+                    "permissions": [
+                        {
+                            "id": "7fae3c6d-ff02-4a75-8a0e-ad886049a19e",
+                            "name": "User All",
+                            "slug": "user.*",
+                            "description": "Punya semua hak akses untuk User",
+                            "created_at": "2025-12-30T06:59:49.000000Z",
+                            "updated_at": "2025-12-30T06:59:49.000000Z"
+                        },
+                        {
+                            "id": "dce9cd6e-1f28-4dac-9464-e2bc6770c1d3",
+                            "name": "Role View",
+                            "slug": "role.view",
+                            "description": "Hak akses untuk melihat Role",
+                            "created_at": "2025-12-30T06:59:49.000000Z",
+                            "updated_at": "2025-12-30T06:59:49.000000Z"
+                        },
+                        {
+                            "id": "e6f7a809-d18b-417a-8e83-b92377ab2ab9",
+                            "name": "Outlet View",
+                            "slug": "outlet.view",
+                            "description": "Hak akses untuk melihat Outlet",
+                            "created_at": "2025-12-30T06:59:49.000000Z",
+                            "updated_at": "2025-12-30T06:59:49.000000Z"
+                        },
+                        {
+                            "id": "c124137a-b02d-4d10-ac37-4fe6f5490f9d",
+                            "name": "Report All",
+                            "slug": "Report.*",
+                            "description": "Punya semua hak akses untuk Report",
+                            "created_at": "2025-12-30T06:59:49.000000Z",
+                            "updated_at": "2025-12-30T06:59:49.000000Z"
+                        }
+                    ],
+                    "created_at": "2025-12-30T06:59:49.000000Z",
+                    "updated_at": "2025-12-30T06:59:49.000000Z"
+                }
+            ],
+            "created_at": "2025-12-30T06:59:49.000000Z",
+            "updated_at": "2025-12-30T06:59:49.000000Z"
+        }
+    }
+}
