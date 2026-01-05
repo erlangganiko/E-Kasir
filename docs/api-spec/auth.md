@@ -156,23 +156,12 @@ Response Body (Success, 200) :
             ],
             "roles" : [
                 {
-                    "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
-                    "name": "Owner Kasir",
                     "slug": "owner",
                     "permissions" : [
-                        {
-                            "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
-                            "name": "Super Admin",
-                            "slug": "*",
-                            "description": "deskripsi permission",
-                            "created_at": "2025-12-17T13:13:31.178830Z",
-                            "updated_at": "2025-12-17T13:13:31.178830Z"
-                        }
+                        "*"
                     ]
                 }
-            ],
-            "created_at": "2025-12-17T13:13:31.178830Z",
-            "updated_at": "2025-12-17T13:13:31.178830Z"
+            ]
         }
     }
 }

@@ -32,63 +32,16 @@
             ],
             "roles": [
                 {
-                    "id": "4e4cfa56-2d20-4c11-bcce-c8b5ed4ed178",
-                    "name": "owner",
+                    
                     "slug": "owner",
-                    "description": "Role untuk owner kasir",
                     "permissions": [
-                        {
-                            "id": "7fae3c6d-ff02-4a75-8a0e-ad886049a19e",
-                            "name": "User All",
-                            "slug": "user.*",
-                            "description": "Punya semua hak akses untuk User",
-                            "created_at": "2025-12-30T06:59:49.000000Z",
-                            "updated_at": "2025-12-30T06:59:49.000000Z"
-                        },
-                        {
-                            "id": "3cbc3892-9e88-43eb-bdb7-7616143ef390",
-                            "name": "Role All",
-                            "slug": "role.*",
-                            "description": "Punya semua hak akses untuk Role",
-                            "created_at": "2025-12-30T06:59:49.000000Z",
-                            "updated_at": "2025-12-30T06:59:49.000000Z"
-                        },
-                        {
-                            "id": "1c44f6a6-e51b-4dea-a105-2663b9a52b98",
-                            "name": "Outlet All",
-                            "slug": "outlet.*",
-                            "description": "Punya semua hak akses untuk Outlet",
-                            "created_at": "2025-12-30T06:59:49.000000Z",
-                            "updated_at": "2025-12-30T06:59:49.000000Z"
-                        },
-                        {
-                            "id": "cb584cd1-666d-491a-80d8-b00e9fc5545b",
-                            "name": "Product All",
-                            "slug": "product.*",
-                            "description": "Punya semua hak akses untuk Product",
-                            "created_at": "2025-12-30T06:59:49.000000Z",
-                            "updated_at": "2025-12-30T06:59:49.000000Z"
-                        },
-                        {
-                            "id": "41674eee-016a-4731-81b8-2624fcc9c9b1",
-                            "name": "Inventory All",
-                            "slug": "inventory.*",
-                            "description": "Punya semua hak akses untuk Inventory",
-                            "created_at": "2025-12-30T06:59:49.000000Z",
-                            "updated_at": "2025-12-30T06:59:49.000000Z"
-                        },
-                        {
-                            "id": "02a88935-6be7-4b4e-8801-9fbed8f7dab3",
-                            "name": "Transaction All",
-                            "slug": "transaction.*",
-                            "description": "Punya semua hak akses untuk Transaction",
-                            "created_at": "2025-12-30T06:59:49.000000Z",
-                            "updated_at": "2025-12-30T06:59:49.000000Z"
-                        }
-                        
-                    ],
-                    "created_at": "2025-12-30T06:59:49.000000Z",
-                    "updated_at": "2025-12-30T06:59:49.000000Z"
+                            "user.*",
+                            "role.*",
+                            "outlet.*",
+                            "product.*",
+                            "inventory.*",
+                            "transaction.*"
+                    ]
                 }
             ],
             "created_at": "2025-12-30T06:59:49.000000Z",
